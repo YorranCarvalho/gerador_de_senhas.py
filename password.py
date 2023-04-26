@@ -6,7 +6,7 @@ import os
 class PassGen:
     def __init__(self):
         # Layout
-        sg.theme('Black')
+        sg.theme('BrownBlue')
         layout = [
             [sg.Text('Site/Software', size=(10,1)),
              sg.Input(key='site', size=(20,1))],
